@@ -1,15 +1,10 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-export const dynamic = 'force-dynamic'
-
-export async function generateMetadata(): Promise<Metadata> {
-  const baseUrl = process.env.NEXTAUTH_URL || 'http://localhost:3000'
-  
-  return {
+export const metadata: Metadata = {
     title: 'XV Años Nicol | Invitación Especial',
     description: 'Estás cordialmente invitado a celebrar los XV años de Nicol - 16 de mayo del 2026',
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL('https://blackbidul.github.io/invitacion_xv_nicol'),
     icons: {
       icon: '/favicon.svg',
       shortcut: '/favicon.svg',
@@ -21,7 +16,6 @@ export async function generateMetadata(): Promise<Metadata> {
       type: 'website',
     },
   }
-}
 
 export default function RootLayout({
   children,

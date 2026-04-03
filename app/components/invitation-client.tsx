@@ -321,9 +321,6 @@ export default function InvitationClient() {
               <p className="font-serif text-2xl text-rapunzel-purple-dark">
                 del 2026
               </p>
-              <p className="text-xl text-rapunzel-purple mt-4 font-semibold">
-                8:00 PM
-              </p>
             </div>
           </AnimatedSection>
 
@@ -373,7 +370,7 @@ export default function InvitationClient() {
                 6a calle "B" 5-24, sector C-2, panorama
               </p>
               <a
-                href="https://www.google.com/maps/dir/14.5874573,-90.5783248/14.5879487,-90.5802135/@14.5874685,-90.5816718,17z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D"
+                href="https://www.google.com/maps/place/Parroquia+Santo+Hermano+Pedro/@14.5877636,-90.5829741,17z/data=!3m1!4b1!4m6!3m5!1s0x8589a0c02bf57121:0xefd495d9e09be213!8m2!3d14.5877584!4d-90.5803992!16s%2Fg%2F11dzsxyd9y?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-premium inline-block"
@@ -394,14 +391,14 @@ export default function InvitationClient() {
               </h2>
               <p className="text-xl font-semibold text-rapunzel-purple mb-4">8:00 PM</p>
               <h3 className="font-medium text-rapunzel-purple-dark text-lg mb-2">
-                Palacio Imperial
+                Centro Comercial San Cristóbal
               </h3>
               <p className="text-rapunzel-purple mb-6 flex items-center justify-center gap-2">
                 <MapPin className="w-4 h-4" />
                 3 Calle 18-72 Centro Comercial San Cristóbal. Guatemala 01057-Mixco
               </p>
               <a
-                href="https://www.google.com/maps/dir/14.5874573,-90.5783248/14.59815,-90.57838/@14.5927525,-90.5834775,16z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D"
+                href="https://www.google.com/maps/search/Centro%20comercial%20san%20cristobal/@14.59564832,-90.57895024,17z?hl=es"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-premium inline-block"
@@ -456,7 +453,7 @@ export default function InvitationClient() {
                 Confirma tu Asistencia
               </h2>
               <p className="text-rapunzel-purple mb-6">
-                No olvides confirmar tu asistencia haciendo clic en el siguiente botón:
+                No olvides confirmar tu asistencia antes del <span className="font-semibold text-rapunzel-gold">5 de mayo</span> haciendo clic en el siguiente botón:
               </p>
               <a
                 href="https://api.whatsapp.com/send/?phone=+50254697108&text=%C2%A1Hola%20Nicol!%20Claro%20que%20asistiremos.%20Cuenten%20con%20nuestra%20presencia"
